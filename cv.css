@@ -1,20 +1,24 @@
 .container{
     background-color: black;
-    width: 60vw;
-    height: 70vh;
+    /* width: 60vw; */
+    height: 100vh;
     border: 2px solid rgb(212, 213, 223);
-    box-shadow: outset 0 0 10px rgb(255, 255, 255);
-
+    /* box-shadow: inset 0 0 0cm rgb(194, 21, 21); */
 }
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(43, 39, 39);
-                font-family: Arial, Helvetica, sans-serif;}
+  font-family: Arial, Helvetica, sans-serif;
+           
+    overflow: hidden;}
+
+
 .nav-bar{
-    height: 80vh;
+    height: 10vh;
     border-radius: 10px;
+    /* width: 400vw; */
 }
 .navbar{
     display: flex;
@@ -23,7 +27,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    width: fit-content;
+    width: 170vh;
+    height: 5vh;
 
 }
 .navbar{
@@ -39,10 +44,10 @@ padding: 12px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .logo span{
-    color: rgb(9, 6, 233);
-    font-size: 16px;
+    color: rgb(236, 236, 243);
+    font-size: 24px;
     font-weight: 800;
-
+font-family: 'Times New Roman', Times, serif;
 }
 .navbar ul{
     display: flex;
@@ -64,10 +69,11 @@ padding: 12px;
 .hero{
     display: flex;
     align-items: center;
-    gap: 200px;
+    gap: 500px;
     padding: 40px;
     justify-content: ;
     align-items: center;
+    margin-left: 200px;
 }
 
 .image{
@@ -91,15 +97,16 @@ object-fit: fill;}
 } */
 .herop button{
     width: 170px;
-margin-right: 100px;
+margin-right: 400px;
     background-color: rgb(29, 212, 23);
     color: white;
     font-size: 20px;
   text-align: center;
-  margin-bottom: auto;
+  margin-bottom: 100px;
+  /* border-radius: 10px; */
 }
 P{
-    margin-left: 100px;
+    margin-left: 05px;
 }
 .brands{
     display: flex;
@@ -108,19 +115,23 @@ P{
     gap: 100px;
     margin-top: 20px;
     color: white;
- margin-left: 100px;
+ margin-left:300px;
+ /* border-radius: 10px; */
 
 }
 #btn2{
-    width: 170px;
-margin-left: 60px;
+    width: 200px;
+margin-left: 220px;
     background-color: rgb(27, 27, 27);
     color: white;
     font-size: 20px;
   text-align: center;
-  margin-bottom: 100px;
-  margin-left: 80px;
+  /* margin-bottom: 200px; */
+  border-radius: 10px;
+  /* margin-left: 80px; */
 }
 #btn1{
-    margin-left: -950px;
+    margin-left: -1590px;
+    
 }
+
